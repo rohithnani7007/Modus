@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+
+.spark-square-image-card[height] {
+  height: attr(height px); /* respects HTML attribute */
+}
+
+.skiptranslate.goog-te-gadget span {
+  display: none !important;
+}
+
+/* Keep only the dropdown visible */
+.skiptranslate.goog-te-gadget select.goog-te-combo {
+  display: inline-block !important;
+}
+
+.goog-te-gadget {
+  font-size: 0 !important; /* Shrinks the whole thing */
+}
+
+.goog-te-gadget select.goog-te-combo {
+  font-size: 14px !important; /* Restore size for dropdown */
+}
+
+.w-form-fail {
+  display: block !important;
+  text-align: center; /* Hide Webflow's default error state */
+}
+.user-form-error-msg {
+  text-align: center;
+}
+
+.tps_link_wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+}
+
+.link_wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+}
+
+.tps_card .tps_img {
+    scale: 1;
+    transition: scale 0.3s ease-in;
+}
+
+.tps_card:hover .tps_img {
+    scale: 1.1;
+}
+
+.image-cover {
+    scale: 1;
+    transition: scale 0.3s ease-in;
+}
+
+.image-cover:hover{
+    scale: 1.1;
+}
+
+.ed_img {
+    scale: 1;
+    transition: scale 0.3s ease-in;
+    z-index: 99;
+}
+
+.ed_img:hover{
+    scale: 1.1;
+}
+
+.tps_close {
+  color: white;
+  z-index: 1000;
+}
+
+.to-accent_teal {
+  background: linear-gradient(to right, #00C49A, #00C49A);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #0A2540, #00C49A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.my-blue-gradient {
+  --tw-gradient-from: #0A2540;               /* deep navy */
+  --tw-gradient-to: #2563eb;                 /* solid blue */
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.my-green-gradient {
+  --tw-gradient-from: #00C49A;               /* deep navy */
+  --tw-gradient-to: #10b981;                 /* solid blue */
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.text-accent_teal {
+    color: rgb(0 196 154);
+}
+
+.grid-1 {
+  display: grid;
+}
+
+.grid-new {
+  display: grid;
+  gap: 2rem; /* same as gap-8 */
+}
+
+.tc_list_wrap li {
+  list-style: disc !important;
+}
+
+.list-11.max-width_100 li {
+  list-style: disc !important;
+}
+
+.bg-background {
+    background-color: hsl(0 0% 100%);
+}
+
+.sticky-scroll-item {
+    position: sticky;
+    top: 0;
+    background: #00C49A;
+    color: white;
+    z-index: 10;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+}
+
+.sticky-scroll-item h2 {
+    margin-bottom: 10px;
+}
+
+.sticky-scroll-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sticky-scroll-item li {
+    margin: 5px 0;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    color: white;
+}
+
+.sticky-scroll-item li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: white;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.sticky-card-image {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.li-18 li {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* Transformation Stack Section Animations */
+.transformation-stack-section {
+
+}
+
+/* .transformation-stack-section.animate {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
+.layer {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.layer:hover {
+  scale: 1.02;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.layer-button {
+  background: #00C49A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.layer-button:hover {
+  background: #009b7d;
+}
+
+.layer p {
+  /* display: none; */
+}
+
+.layer.expanded p {
+  display: block;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* ===== Premium Scroll Reveal ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.9s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
