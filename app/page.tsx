@@ -71,7 +71,7 @@ export default function Home() {
         </div>
       </header>
 
-      {/* ================= HERO ================= */}
+      {/*  HERO */}
       <section className="mt-32 max-w-7xl mx-auto px-6 text-center space-y-12">
         <h1 className="text-5xl lg:text-6xl font-semibold bg-gradient-to-r from-black via-[#008282] to-black bg-clip-text text-transparent">
           Value System Analysis – New Product & Service Launch
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= KEY STATEMENT ================= */}
+      {/* KEY STATEMENT */}
       <section className="mt-32 max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
           In the modern world, a product or service is never just a product.
@@ -102,7 +102,7 @@ export default function Home() {
         </h2>
       </section>
 
-      {/* ================= TRANSFORMATION SECTION ================= */}
+      {/*  TRANSFORMATION SECTION */}
       <section className="mt-32 bg-[#ecffff] py-24">
   <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20">
 
@@ -145,7 +145,7 @@ export default function Home() {
 </section>
 
 
-      {/* ================= CTA ================= */}
+      {/* CTA  */}
       <section className="mt-1 bg-[#f7ffff] py-32">
   <div className="max-w-7xl mx-auto px-6">
     <div className="grid lg:grid-cols-2 gap-24 items-start">
@@ -655,7 +655,7 @@ export default function Home() {
 <section className="py-36 bg-white">
   <div className="max-w-7xl mx-auto px-6">
 
-    {/* ================= WHO THIS IS FOR ================= */}
+    {/*  WHO THIS IS FOR */}
     <div className="mb-36">
 
       <h2 className="text-5xl font-bold text-[#003d3d] mb-10">
@@ -717,7 +717,7 @@ export default function Home() {
       </div>
     </div>
 
-    {/* ================= LEADERSHIP SHIFT ================= */}
+    {/* LEADERSHIP SHIFT  */}
     <div className="pt-32 border-t">
 
       <h2 className="text-5xl font-bold text-[#003d3d] mb-12">
