@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <>
-      {/* ================= NAVBAR ================= */}
+      {/*  NAVBAR  */}
       <header className="mt-5 w-full flex justify-center">
         <div className="max-w-7xl w-full mx-1 h-20 rounded-3xl bg-gradient-to-b from-[#00b3b37a] flex items-center justify-between px-8">
 
